@@ -6,6 +6,10 @@ if(notes) {
     notes.forEach(note => addNewNote(note))
 }
 
+//Added this comment. to check the tracking of changes
+
+
+
 addBtn.addEventListener('click', () => addNewNote())
 
 function addNewNote(text = '') {
